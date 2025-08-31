@@ -1,11 +1,11 @@
 # 规范驱动开发指南
 
-一份使用三阶段规范流程（需求 → 设计 → 任务）进行系统性功能开发的综合指南。
+一份使用三阶段规范流程进行系统化功能开发的综合指南：需求 → 设计 → 任务。
 
-<!-- Navigation Metadata -->
-<!-- Keywords: spec-driven development, requirements engineering, system design, implementation planning, AI collaboration -->
-<!-- Topics: methodology, process, templates, examples, best practices -->
-<!-- Audience: developers, project managers, technical leads -->
+<!-- 导航元数据 -->
+<!-- 关键词：规范驱动开发、需求工程、系统设计、实施规划、AI 协作 -->
+<!-- 主题：方法论、流程、模板、示例、最佳实践 -->
+<!-- 受众：开发人员、项目经理、技术负责人 -->
 
 ## 🧭 导航指南
 
@@ -13,7 +13,7 @@
 **准备创建你的第一个规范？** → 跳转到[流程指南](process/README.md)
 **正在寻找示例？** → 浏览[示例与案例研究](examples/README.md)
 **需要模板？** → 获取[即用型模板](templates/README.md)
-**与 AI 协作？** → 学习[提示策略](prompting/README.md)
+**与 AI 合作？** → 学习[提示策略](prompting/README.md)
 
 **📍 需要详细导航？** → 查看[完整导航索引](NAVIGATION.md) - 按角色、问题或学习风格查找内容
 
@@ -56,7 +56,7 @@
 精选的参考资料和学习材料
 - [标准](resources/standards.md) - EARS 和行业标准
 - [工具](resources/tools.md) - 推荐的工具和集成
-- [进一步阅读](resources/further-reading.md) - 其他学习资源
+- [进一步阅读](resources/further-reading.md) - 额外的学习资源
 
 ### 📖 [示例](examples/README.md)
 真实世界的案例研究和完整的规范示例
@@ -69,7 +69,7 @@
 即用型模板和清单
 - [需求模板](templates/requirements-template.md) - EARS 格式的需求
 - [设计模板](templates/design-template.md) - 全面的设计结构
-- [任务模板](templates/tasks-template.md) - 实施计划格式
+- [任务模板](templates/tasks-template.md) - 实施规划格式
 
 ---
 
@@ -78,9 +78,9 @@
 刚接触规范驱动开发？从这里开始：
 
 1.  **理解方法论** - 阅读[概述](methodology/overview.md)以掌握核心概念
-2.  **看实例** - 查看一个[简单功能规范](examples/simple-feature-spec.md)示例
-3.  **亲手尝试** - 使用[需求模板](templates/requirements-template.md)创建你的第一个规范
-4.  **获得更好结果** - 应用[提示策略](prompting/strategies.md)进行 AI 协作
+2.  **看它如何运作** - 查看一个[简单功能规范](examples/simple-feature-spec.md)示例
+3.  **亲自动手** - 使用[需求模板](templates/requirements-template.md)创建你的第一个规范
+4.  **获得更好的结果** - 应用[提示策略](prompting/strategies.md)进行 AI 协作
 
 ## 导航技巧
 
@@ -95,14 +95,14 @@
 ## 🔗 交叉引用与相关内容
 
 ### 按工作流阶段
-- **规划阶段**: [方法论](methodology/README.md) → [需求](process/requirements-phase.md) → [设计](process/design-phase.md) → [任务](process/tasks-phase.md)
-- **执行阶段**: [实施指南](execution/implementation-guide.md) → [质量保证](execution/quality-assurance.md)
-- **AI 协作**: [提示策略](prompting/README.md) → [AI 推理](ai-reasoning/README.md) → [最佳实践](prompting/best-practices.md)
+- **规划阶段**：[方法论](methodology/README.md) → [需求](process/requirements-phase.md) → [设计](process/design-phase.md) → [任务](process/tasks-phase.md)
+- **执行阶段**：[实施指南](execution/implementation-guide.md) → [质量保证](execution/quality-assurance.md)
+- **AI 协作**：[提示策略](prompting/README.md) → [AI 推理](ai-reasoning/README.md) → [最佳实践](prompting/best-practices.md)
 
 ### 按经验水平
-- **初学者**: [方法论](methodology/README.md) → [简单示例](examples/simple-feature-spec.md) → [模板](templates/README.md)
-- **中级**: [流程指南](process/README.md) → [提示策略](prompting/README.md) → [案例研究](examples/case-studies.md)
-- **高级**: [AI 推理](ai-reasoning/README.md) → [复杂示例](examples/complex-system-spec.md) → [决策框架](ai-reasoning/decision-frameworks.md)
+- **初学者**：[方法论](methodology/README.md) → [简单示例](examples/simple-feature-spec.md) → [模板](templates/README.md)
+- **中级**：[流程指南](process/README.md) → [提示策略](prompting/README.md) → [案例研究](examples/case-studies.md)
+- **高级**：[AI 推理](ai-reasoning/README.md) → [复杂示例](examples/complex-system-spec.md) → [决策框架](ai-reasoning/decision-frameworks.md)
 
 ### 快速解决问题
 - **需求不明确** → [需求阶段](process/requirements-phase.md) + [EARS 标准](resources/standards.md)
@@ -112,6 +112,6 @@
 
 ---
 
-*本指南旨在既作为学习资源，也作为参考手册。根据你当前的需求跳转到任何部分，或按顺序阅读以获得全面理解。*
+*本指南既是学习资源，也是参考手册。根据你当前的需求跳转到任何部分，或按顺序阅读以获得全面理解。*
 
-**📍 有关按角色、问题或学习风格的详细导航，请参阅[完整导航索引](NAVIGATION.md)**
+**📍 如需按角色、问题或学习风格进行详细导航，请参阅[完整导航索引](NAVIGATION.md)**
